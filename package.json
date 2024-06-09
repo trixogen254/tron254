@@ -2,6 +2,7 @@
   "name": "tron254-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tron254-frontend-69c3822be88a.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,7 +11,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
-    "react-scripts": "5.0.1",
     "serve": "^14.2.3",
     "web-vitals": "^2.1.4"
   },
@@ -19,12 +19,24 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "gh-pages": "^5.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   },
   "browserslist": {
     "production": [
