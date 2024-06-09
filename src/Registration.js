@@ -6,7 +6,7 @@ function Registration() {
   const [message, setMessage] = useState('');
 
   const registerUser = () => {
-    axios.post('https://your-backend-url/register', { username })
+    axios.post('https://tron254-backend-5d548a883f2f.herokuapp.com/register', { username })
       .then(response => {
         setMessage('User registered successfully');
       })

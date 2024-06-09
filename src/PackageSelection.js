@@ -7,7 +7,7 @@ function PackageSelection() {
   const Navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('https://your-backend-url/packages')
+    axios.get('https://tron254-backend-5d548a883f2f.herokuapp.com/packages')
       .then(response => {
         setPackages(response.data);
       })

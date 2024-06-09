@@ -10,7 +10,7 @@ function Payment() {
   const selectedPackage = location.state?.selectedPackage;
 
   const initiatePayment = () => {
-    axios.post('https://your-backend-url/payment', { username, phoneNumber, package: selectedPackage })
+    axios.post('https://tron254-backend-5d548a883f2f.herokuapp.com/payment', { username, phoneNumber, package: selectedPackage })
       .then(response => {
         setMessage('Payment initiated. Please check your phone to complete the payment.');
       })
